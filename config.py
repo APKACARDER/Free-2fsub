@@ -13,10 +13,10 @@ from logging.handlers import RotatingFileHandler
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "24177479"))
+APP_ID = int(os.environ.get("APP_ID", "21346742"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "6a21ab3ea9fc9052f023980646630c01")
+API_HASH = os.environ.get("API_HASH", "571dd0607522052217b398aa3cd860d8")
 
 #Your db channel Id
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002037458506"))
@@ -43,7 +43,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "100"))
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "<b>Hello {first}</b>\n\nmuth marna band kr de dusro ko sex krte dekh muth marne maja aata kya?? cuck ho? eww bhai imagine tumhara brain itna fucked up ho chuka hai ki tum dusro ko sex krte dekh maja ata sad bhai ye sab band kr do @Space_Carder if you want bot like this </a></b>")
 try:
-    ADMINS=[5333099884]
+    ADMINS=[1345506970]
     for x in (os.environ.get("ADMINS", "").split()):
         ADMINS.append(int(x))
 except ValueError:
